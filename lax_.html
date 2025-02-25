@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        background-color: #CCB694;
+        font-family:'Times New Roman', Times, serif;
+        color: #5A3E2B;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        max-width:1200px;
+        margin:auto;
+        padding:50px 20px;
+    }
+    .section{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .text-content{
+        width:50%;
+        font-size:18px;
+        line-height: 1.5;
+    }
+    .image-content img{
+        width:450px;
+        height:auto;
+        border-radius:50px;
+    }
+     .heading{
+        font-size:28px;
+        font-weight:bolder;
+        margin-bottom: 10px;
+     }
+     .highlights{
+        background-color:rgb(247, 246, 216);
+        padding:40px 20px;
+        text-align: center;
+     }
+     .highlights p{
+        max-width: 800px;
+        margin:auto;
+        font-size: 18px;
+        line-height: 1.6;
+     }
+     .gallery{
+        margin:10px;
+        
+        float:left;
+        width:300px;
+     }
+     .gallery img{
+        width:100%;
+        height:100%;
+        border-radius: 50px;
+     }
+     desc{
+        padding:10px;
+        text-align:center;
+     }
+     .trans{
+        width:90%;
+        height:90%;
+        transition: width height 2s;
+     }
+     .trans:hover{
+        width:100%;
+        height:100%;
+     }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section">
+            <div class="text-content">
+                <div class="heading"><h1 style="font-weight:bold;">Explore our breathtaking resort destinations around the world.</h1></div>
+                <p>From serene beaches to majestic mountain peaks or urban spa retreats, our resorts offer the ideal setting to relax and recharge. Each resort is uniquely designed to reflect the local culture and character, providing guests with an immersive experience, absolute comfort and fabulous dining, wellness, and activities choices. So, step back, relax, recharge, reconnect, and let your mind wander while we take care of the rest.
+        </div>
+        <div class="image-content">
+            <img src="./assets/res_2_1.jpg" alt="Resort Image">
+        </div>
+        </div>
+        </div>
+        <div class="highlights">
+            <div class="heading">Highlights</div>
+            <p>Our venue is a masterpiece of elegance, blending timeless luxury with breathtaking aesthetics. The grand wedding hall shimmers under cascading golden lights, creating an enchanting atmosphere of romance and sophistication. The regal bedroom, reminiscent of a palace, exudes opulence with intricate detailing, plush furnishings, and a serene ambiance fit for royalty. Meanwhile, the dreamy beachfront gazebo, adorned with delicate floral arrangements and twinkling fairy lights, offers an unforgettable setting for vows exchanged under the stars. Each space is thoughtfully designed to evoke beauty, warmth, and grandeur, making every moment truly magical.</p>
+            <div class="gallery"><div class="trans"><img src="./assets/high_1.jpg" alt="royal rooms" width="800" height="500">
+                <div class="desc">Cascading lights and luxury vibes..</div>
+                </div></div>
+            <div class="gallery"><div class="trans"><img src="./assets/high_4.jpg" alt="royal rooms" width="800" height="500">
+                <div class="desc">Luxury and elegance in every detail..</div>
+                </div></div>
+            <div class="gallery"><div class="trans"><img src="./assets/high_6.jpg" alt="royal rooms" width="800" height="500">
+                <div class="desc">Cascading lights and luxury vibes..</div>
+                </div></div>
+        </div>
+    </body>
+</html>
