@@ -1,0 +1,10 @@
+.CN{
+    background : pink 
+    width : 50;
+    height : 30;
+}
+.main{
+    display : flex;
+    align-content : center;
+    justify-content : center;
+}
